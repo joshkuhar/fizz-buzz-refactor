@@ -20,6 +20,9 @@ function fizzBuzz(fbNmbr) {
 $(".enter").click(function() {
   $(".output").empty();
      var inputNumber = $(".text-box").val();
+     if(inputNumber % 1 !== 0){
+        alert("please input a number only or a number without decimals");
+      }
      var x = 1;
      while (x <= inputNumber) {
         $(".output").append("<div>"+fizzBuzz(x)+"</div>");
