@@ -1,0 +1,22 @@
+h1, div, p {
+	display: block;
+	text-align: center;
+	width: 25em;
+	margin: 0 auto;
+}
+p {
+	padding: 2em;
+}
+#instructions {
+	padding: 1em;
+}
+#results {
+	border-bottom: solid .02em black;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+.text-box {
+	width: 3em;
+	border: solid .1em blue;
+	text-align: center;
+}
