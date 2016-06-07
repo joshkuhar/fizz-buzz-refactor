@@ -19,21 +19,21 @@ function fizzBuzz(fbNmbr) {
 
 $(".enter").click(function() {
   $(".output").empty();
-	   var inputNumber = $(".text-box").val();
+     var inputNumber = $(".text-box").val();
      var x = 1;
      while (x <= inputNumber) {
         $(".output").append("<div>"+fizzBuzz(x)+"</div>");
         x++;
       }
-	$(".text-box").val("");
-	console.log("check");
-	});
+  $(".text-box").val("");
+  console.log("check");
+  });
 
 // use enter to add list items
 $('.text-box').keyup(function(e){
 	if(e.keyCode == 13) {
 		//event.preventDefault();
 		$('.enter').click();
-	};
+	}
 });	
 
